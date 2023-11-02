@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>LuckyRampage - Digital Game Development</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LuckyRampage: Crafting Exciting Digital Adventures. We are a passionate game development company dedicated to creating immersive and thrilling gaming experiences. Explore our portfolio of games, development services, and join us in the world of interactive entertainment.">
+
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <!-- venobox popup -->
+  <link rel="stylesheet" href="plugins/venobox/venobox.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <!-- preloader start -->
+  <div class="preloader">
+    <img src="images/preloader.gif" alt="preloader">
+  </div>
+  <!-- preloader end -->
+
+<!-- header -->
+<header class="fixed-top header">
+  <!-- top header -->
+  <div class="top-header py-2 bg-white">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-lg-4 text-center text-lg-left">
+          <a class="text-color mr-3" href="tel:+443003030266"><strong>CALL</strong>+380-66-367-12-58</a>
+          <ul class="list-inline d-inline">
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-facebook"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-github"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-8 text-center text-lg-right" style="display: flex; align-items: center; justify-content: flex-end;">
+          <a class="text-color mr-3" href="tel:+443003030266"><strong>Adressa: </strong>Nezalezhnoi Ukrainy street, 86, Zaporizhzhia, Zaporizhzhia region, 69000</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- navbar -->
+  <div class="navigation w-100">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark p-0">
+        <a class="navbar-brand" href="/"><img src="images/logo.png" alt="logo"></a>
+        <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navigation">
+          <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item @@about">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            
+            <li class="nav-item @@contact">
+              <a class="nav-link" href="./contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+<!-- /header -->
+<!-- Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content rounded-0 border-0 p-4">
+            <div class="modal-header border-0">
+                <h3>Register</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="login">
+                    <form action="#" class="row">
+                        <div class="col-12">
+                            <input type="text" class="form-control mb-3" id="signupPhone" name="signupPhone" placeholder="Phone">
+                        </div>
+                        <div class="col-12">
+                            <input type="text" class="form-control mb-3" id="signupName" name="signupName" placeholder="Name">
+                        </div>
+                        <div class="col-12">
+                            <input type="email" class="form-control mb-3" id="signupEmail" name="signupEmail" placeholder="Email">
+                        </div>
+                        <div class="col-12">
+                            <input type="password" class="form-control mb-3" id="signupPassword" name="signupPassword" placeholder="Password">
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">SIGN UP</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content rounded-0 border-0 p-4">
+            <div class="modal-header border-0">
+                <h3>Login</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="#" class="row">
+                    <div class="col-12">
+                        <input type="text" class="form-control mb-3" id="loginPhone" name="loginPhone" placeholder="Phone">
+                    </div>
+                    <div class="col-12">
+                        <input type="text" class="form-control mb-3" id="loginName" name="loginName" placeholder="Name">
+                    </div>
+                    <div class="col-12">
+                        <input type="password" class="form-control mb-3" id="loginPassword" name="loginPassword" placeholder="Password">
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">LOGIN</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- page title -->
+<section class="page-title-section overlay" data-background="images/backgrounds/page-title.jpg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="list-inline custom-breadcrumb mb-2">
+          <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="index.html">Home</a></li>
+          <li class="list-inline-item text-white h3 font-secondary nasted">Contact Us</li>
+        </ul>
+        <p class="text-lighten mb-0">Our courses strike a balance, combining ongoing assessments with a focus on project-based learning, bridging the gap between theory and practical skills in the realm of digital game development.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /page title -->
+
+<!-- contact -->
+<section class="section bg-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="section-title">Contact Us</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-7 mb-4 mb-lg-0">
+        <form action="/" method="POST">
+          <input type="text" class="form-control mb-3" id="name" name="name" placeholder="Your Name" required>
+          <input type="email" class="form-control mb-3" id="mail" name="mail" placeholder="Your Email" required>
+          <input type="text" class="form-control mb-3" id="subject" name="subject" placeholder="Subject" required>
+          <textarea name="message" id="message" class="form-control mb-3" placeholder="Your Message" required></textarea>
+          <button type="submit" value="send" class="btn btn-primary">SEND MESSAGE</button>
+        </form>
+      </div>
+      <div class="col-lg-5">
+        <p class="mb-5">Got questions or ideas to share? Reach out to LuckyRampage. We're here to discuss all things gaming and innovation. Connect with us today!</p>
+        <a href="#" class="text-color h5 d-block">+380-66-367-12-58</a>
+        <a href="#" class="mb-5 text-color h5 d-block">mykytasiv11111@gmail.com</a>
+        <p>Nezalezhnoi Ukrainy street, 86, Zaporizhzhia, Zaporizhzhia region, 69000</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /contact -->
+
+<!-- gmap -->
+<section class="section pt-0">
+  <!-- Google Map -->
+  <div id="map_canvas" data-latitude="47.8392364340834" data-longitude="35.14373684809384"></div>
+</section>
+<!-- /gmap -->
+
+<!-- footer -->
+<footer>
+  <!-- newsletter -->
+  <div class="newsletter">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 ml-auto bg-primary py-5 newsletter-block">
+          <h3 class="text-white">Subscribe Now</h3>
+          <form action="/">
+            <div class="input-wrapper">
+              <input type="email" class="form-control border-0" id="newsletter" name="newsletter" placeholder="Enter Your Email...">
+              <button type="submit" value="send" class="btn btn-primary">Join</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer content -->
+  <div class="footer bg-footer section border-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
+          <!-- logo -->
+          <a class="logo-footer" href="index.html"><img class="img-fluid mb-4" src="images/logo.png" alt="logo"></a>
+          <ul class="list-unstyled">
+            <li class="mb-2">Nezalezhnoi Ukrainy street, 86, Zaporizhzhia, Zaporizhzhia region, 69000</li>
+            <li class="mb-2">+380-66-367-12-58</li>
+            <li class="mb-2">+380-66-367-12-58</li>
+            <li class="mb-2">mykytasiv11111@gmail.com</li>
+          </ul>
+        </div>
+        <!-- company -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5">COMPANY</h4>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color" href="./about.html">About Us</a></li>
+            <!-- <li class="mb-3"><a class="text-color" href="./teacher.html">Our Teacher</a></li> -->
+            <li class="mb-3"><a class="text-color" href="./contact.html">Contact</a></li>
+            <!-- <li class="mb-3"><a class="text-color" href="./blog.html">Blog</a></li> -->
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5">MAP</h4>
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2678.056524758493!2d35.1420202!3d47.8384983!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dc674bd92156af%3A0x1616c1cc610f616e!2z0LLRg9C70LjRhtGPINCd0LXQt9Cw0LvQtdC20L3QvtGXINCj0LrRgNCw0ZfQvdC4LCA4Niwg0JfQsNC_0L7RgNGW0LbQttGPLCDQl9Cw0L_QvtGA0ZbQt9GM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNjkwMDA!5e0!3m2!1suk!2sua!4v1698917731268!5m2!1suk!2sua" width="700" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</footer>
+<!-- /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- aos -->
+<script src="plugins/aos/aos.js"></script>
+<!-- venobox popup -->
+<script src="plugins/venobox/venobox.min.js"></script>
+<!-- filter -->
+<script src="plugins/filterizr/jquery.filterizr.min.js"></script>
+<!-- google map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"></script>
+<script src="plugins/google-map/gmap.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

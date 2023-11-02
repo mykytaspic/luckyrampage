@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>LuckyRampage - Digital Game Development</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="LuckyRampage: Crafting Exciting Digital Adventures. We are a passionate game development company dedicated to creating immersive and thrilling gaming experiences. Explore our portfolio of games, development services, and join us in the world of interactive entertainment.">
+
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <!-- venobox popup -->
+  <link rel="stylesheet" href="plugins/venobox/venobox.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <!-- preloader start -->
+  <div class="preloader">
+    <img src="images/preloader.gif" alt="preloader">
+  </div>
+  <!-- preloader end -->
+
+  <!-- header -->
+  <header class="fixed-top header">
+    <!-- top header -->
+    <div class="top-header py-2 bg-white">
+      <div class="container">
+        <div class="row no-gutters">
+          <div class="col-lg-4 text-center text-lg-left">
+            <a class="text-color mr-3" href="tel:+443003030266"><strong>CALL</strong>+380-66-367-12-58</a>
+            <ul class="list-inline d-inline">
+              <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i
+                    class="ti-facebook"></i></a></li>
+              <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i
+                    class="ti-twitter-alt"></i></a></li>
+              <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i
+                    class="ti-github"></i></a></li>
+              <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i
+                    class="ti-instagram"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-lg-8 text-center text-lg-right"
+            style="display: flex; align-items: center; justify-content: flex-end;">
+            <a class="text-color mr-3" href="tel:+443003030266"><strong>Adressa: </strong>Nezalezhnoi Ukrainy street,
+              86, Zaporizhzhia, Zaporizhzhia region, 69000</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- navbar -->
+    <div class="navigation w-100">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark p-0">
+          <a class="navbar-brand" href="/"><img src="images/logo.png" alt="logo"></a>
+          <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+            aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navigation">
+            <ul class="navbar-nav ml-auto text-center">
+              <li class="nav-item active">
+                <a class="nav-link" href="/">Home</a>
+              </li>
+              <li class="nav-item @@about">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+
+              <li class="nav-item @@contact">
+                <a class="nav-link" href="./contact.html">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- Modal -->
+  <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content rounded-0 border-0 p-4">
+        <div class="modal-header border-0">
+          <h3>Register</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="login">
+            <form action="#" class="row">
+              <div class="col-12">
+                <input type="text" class="form-control mb-3" id="signupPhone" name="signupPhone" placeholder="Phone">
+              </div>
+              <div class="col-12">
+                <input type="text" class="form-control mb-3" id="signupName" name="signupName" placeholder="Name">
+              </div>
+              <div class="col-12">
+                <input type="email" class="form-control mb-3" id="signupEmail" name="signupEmail" placeholder="Email">
+              </div>
+              <div class="col-12">
+                <input type="password" class="form-control mb-3" id="signupPassword" name="signupPassword"
+                  placeholder="Password">
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">SIGN UP</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- page title -->
+  <section class="page-title-section overlay" data-background="images/backgrounds/page-title.jpg">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <ul class="list-inline custom-breadcrumb mb-2">
+            <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="index.html">Home</a></li>
+            <li class="list-inline-item text-white h3 font-secondary nasted">About Us</li>
+          </ul>
+          <p class="text-lighten mb-0">Our game development courses strike a harmonious balance, integrating ongoing
+            assessments, a hallmark of some universities, with a strong emphasis on hands-on projects, offering a
+            comprehensive learning experience.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /page title -->
+
+  <!-- about -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <img class="img-fluid w-100 mb-4" src="images/about/about-page.jpg" alt="about image">
+          <h2 class="section-title">Discover Our Game Development Odyssey</h2>
+          <p>At LuckyRampage, our journey in the world of digital game development has been nothing short of an epic adventure. From the inception of our creative ideas to the launch of captivating gaming experiences, we've navigated through uncharted territories and overcome countless challenges.</p>
+          <p>Every line of code, every pixel in our graphics, and every concept we've brought to life has been a part of this extraordinary odyssey. We're more than just a game development company; we're a team of passionate storytellers, artists, and engineers who turn dreams into reality.</p>
+          <p>Join us in this immersive world of game development, where innovation and imagination know no bounds. Explore our projects, delve into our narratives, and witness the magic of interactive entertainment. Our odyssey continues, and we invite you to be a part of it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /about -->
+
+  <!-- success story -->
+  <section class="section bg-cover" data-background="images/backgrounds/success-story.jpg">
+    <div class="container">
+      <div class="row">
+      
+        <div class="col-lg col-sm-8">
+          <div class="col-lg-6 col-sm-8">
+            <div class="bg-white p-5">
+              <h2 class="section-title">Our Journey to Success</h2>
+              <p>Embark on our remarkable journey in the realm of digital game development. From humble beginnings to extraordinary achievements, we've honed our craft, bringing unparalleled gaming experiences to life.</p>
+              <p>Explore our path, fueled by innovation and dedication, as we continue to shape the future of interactive entertainment. Join us in celebrating our success and the incredible adventures yet to come.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="my-section">
+    <h2 class="text-white mb-5" style="text-align: center;">Review Clients</h2>
+    <ol style="text-align: start;color: #fff; font-size: 16px;border: 0px solid rgb(217, 217, 227);">
+      <li style="color: #fff;border: 0px solid rgb(217, 217, 227);">
+          <p style="color: #fff;border: 0px solid rgb(217, 217, 227);"><strong style="color: #fff;border: 0px solid rgb(217, 217, 227);">Review by Sarah T.</strong>&quot;I&apos;ve been a gamer for years, and LuckyRampage consistently blows me away with their innovative games. The attention to detail and storytelling in their creations is top-notch. LuckyRampage is my go-to for unforgettable gaming experiences!&quot;</p>
+      </li>
+      <li style="color: #fff;border: 0px solid rgb(217, 217, 227);">
+          <p style="color: #fff;border: 0px solid rgb(217, 217, 227);"><strong style="color: #fff;border: 0px solid rgb(217, 217, 227);">Review by Mark L.</strong>&quot;As a fellow game developer, I can&apos;t help but admire the quality of work LuckyRampage consistently delivers. Their commitment to pushing the boundaries of game design is inspiring. Kudos to the talented team at LuckyRampage!&quot;</p>
+      </li>
+      <li style="color: #fff;border: 0px solid rgb(217, 217, 227);">
+          <p style="color: #fff;border: 0px solid rgb(217, 217, 227);"><strong style="color: #fff;border: 0px solid rgb(217, 217, 227);">Review by Lisa K.</strong>&quot;LuckyRampage has redefined what I expect from digital games. Their graphics are stunning, gameplay is addictive, and the storytelling is next level. I can&apos;t get enough of their titles. Keep &apos;em coming!&quot;</p>
+      </li>
+      <li style="color: #fff;border: 0px solid rgb(217, 217, 227);">
+          <p style="color: #fff;border: 0px solid rgb(217, 217, 227);"><strong style="color: #fff;border: 0px solid rgb(217, 217, 227);">Review by David R.</strong>&quot;I&apos;m a proud supporter of LuckyRampage&apos;s work. Their dedication to crafting unique gaming experiences is commendable. The creativity and passion behind each project shine through, and I can&apos;t wait to see what they create next!&quot;</p>
+      </li>
+      <li style="color: #fff;border: 0px solid rgb(217, 217, 227);">
+          <p style="color: #fff;border: 0px solid rgb(217, 217, 227);"><strong style="color: #fff;border: 0px solid rgb(217, 217, 227);">Review by Emily B.</strong>&quot;LuckyRampage games are a must-play for any gaming enthusiast. The quality and depth of their titles are second to none. I&apos;ve lost count of the hours I&apos;ve spent exploring their game worlds. LuckyRampage, you&apos;ve got a lifelong fan here!&quot;</p>
+      </li>
+  </ol>
+  </section>
+  <style>
+.my-section {
+  background-color: rgb(68, 70, 84);
+  padding: 40px 0;
+}
+  </style>
+  <!-- /success story -->
+
+  <!-- teachers -->
+  <section class="section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <h2 class="section-title">Teams</h2>
+        </div>
+        <!-- teacher -->
+        <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+          <div class="card border-0 rounded-0 hover-shadow">
+            <img class="card-img-top rounded-0" src="images/teachers/teacher-1.jpg" alt="teacher">
+            <div class="card-body">
+              <a href="teacher-single.html">
+                <h4 class="card-title">Alexandra "Alex" Sparks</h4>
+              </a>
+              <p>Position: Lead Game Designer</p>
+              <p>Bio: Alex is a creative genius with a passion for storytelling in the gaming world. With over a decade of experience, she's the driving force behind LuckyRampage's innovative game designs. Her love for narrative-driven gameplay and unique game mechanics has earned her recognition in the industry.</p>
+              <ul class="list-inline">
+                <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-facebook"></i></a></li>
+                <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
+                <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-google"></i></a></li>
+                <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- teacher -->
+        <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+          <div class="card border-0 rounded-0 hover-shadow">
+            <img class="card-img-top rounded-0" src="images/teachers/teacher-2.jpg" alt="teacher">
+            <div class="card-body">
+              <a href="teacher-single.html">
+                <h4 class="card-title">Ethan "EJ" Jensen</h4>
+              </a>
+              <p>Position: Senior Software Engineer</p>
+              <p>Bio: EJ is the technical wizard of the team. He brings game concepts to life by writing elegant and efficient code. With a background in artificial intelligence and a knack for optimizing game performance, EJ ensures that LuckyRampage's games run seamlessly on all platforms.</p>
+              <ul class="list-inline">
+                <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-facebook"></i></a></li>
+                <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
+                <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-google"></i></a></li>
+                <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- teacher -->
+        <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+          <div class="card border-0 rounded-0 hover-shadow">
+            <img class="card-img-top rounded-0" src="images/teachers/teacher-3.jpg" alt="teacher">
+            <div class="card-body">
+              <a href="teacher-single.html">
+                <h4 class="card-title">Lily Chen</h4>
+              </a>
+              <p>Position: Art Director</p>
+              <p>Bio: Lily is the visionary behind the stunning visuals in LuckyRampage's games. Her artistic talent and eye for detail have led to the creation of immersive and captivating game worlds. With a diverse background in graphic design and animation, Lily shapes the visual identity of LuckyRampage's projects.
+              </p>
+              <ul class="list-inline">
+                <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-facebook"></i></a></li>
+                <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
+                <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-google"></i></a></li>
+                <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /teachers -->
+
+  <!-- footer -->
+  <footer>
+    <!-- newsletter -->
+    <div class="newsletter">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9 ml-auto bg-primary py-5 newsletter-block">
+            <h3 class="text-white">Subscribe Now</h3>
+            <form action="/">
+              <div class="input-wrapper">
+                <input type="email" class="form-control border-0" id="newsletter" name="newsletter"
+                  placeholder="Enter Your Email...">
+                <button type="submit" value="send" class="btn btn-primary">Join</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer content -->
+    <div class="footer bg-footer section border-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
+            <!-- logo -->
+            <a class="logo-footer" href="index.html"><img class="img-fluid mb-4" src="images/logo.png" alt="logo"></a>
+            <ul class="list-unstyled">
+              <li class="mb-2">Nezalezhnoi Ukrainy street, 86, Zaporizhzhia, Zaporizhzhia region, 69000</li>
+              <li class="mb-2">+380-66-367-12-58</li>
+              <li class="mb-2">+380-66-367-12-58</li>
+              <li class="mb-2">mykytasiv11111@gmail.com</li>
+            </ul>
+          </div>
+          <!-- company -->
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+            <h4 class="text-white mb-5">COMPANY</h4>
+            <ul class="list-unstyled">
+              <li class="mb-3"><a class="text-color" href="./about.html">About Us</a></li>
+              <!-- <li class="mb-3"><a class="text-color" href="./teacher.html">Our Teacher</a></li> -->
+              <li class="mb-3"><a class="text-color" href="./contact.html">Contact</a></li>
+              <!-- <li class="mb-3"><a class="text-color" href="./blog.html">Blog</a></li> -->
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+            <h4 class="text-white mb-5">MAP</h4>
+
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2678.056524758493!2d35.1420202!3d47.8384983!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dc674bd92156af%3A0x1616c1cc610f616e!2z0LLRg9C70LjRhtGPINCd0LXQt9Cw0LvQtdC20L3QvtGXINCj0LrRgNCw0ZfQvdC4LCA4Niwg0JfQsNC_0L7RgNGW0LbQttGPLCDQl9Cw0L_QvtGA0ZbQt9GM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNjkwMDA!5e0!3m2!1suk!2sua!4v1698917731268!5m2!1suk!2sua"
+              width="700" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- /footer -->
+
+  <!-- jQuery -->
+  <script src="plugins/jQuery/jquery.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="plugins/bootstrap/bootstrap.min.js"></script>
+  <!-- slick slider -->
+  <script src="plugins/slick/slick.min.js"></script>
+  <!-- aos -->
+  <script src="plugins/aos/aos.js"></script>
+  <!-- venobox popup -->
+  <script src="plugins/venobox/venobox.min.js"></script>
+  <!-- filter -->
+  <script src="plugins/filterizr/jquery.filterizr.min.js"></script>
+  <!-- google map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"></script>
+  <script src="plugins/google-map/gmap.js"></script>
+
+  <!-- Main Script -->
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
